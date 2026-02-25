@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Pemrograman WEB</title>
+    <style>
+        /* Mengatur gaya dasar untuk seluruh halaman */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 20px;
+            /* Memberi batas tebal berwarna biru di sebelah kiri seperti pada gambar */
+            border-left: 20px solid #000080; /* Dark Blue */
+        }
+
+        /* Wadah utama untuk konten agar tidak terlalu lebar di layar besar */
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        /* Gaya untuk judul utama */
+        .main-title {
+            color: red;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        /* Gaya untuk sub-judul */
+        .sub-title {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        
+        /* Gaya spesifik untuk judul HTML yang lebih besar */
+        .html-title {
+            font-size: 2.5em; /* Ukuran font lebih besar */
+        }
+
+        /* Gaya untuk daftar tentang Internet */
+        .internet-list {
+            list-style-type: circle; /* Menggunakan bullet lingkaran */
+            color: blue;
+            padding-left: 40px; /* Memberi sedikit jarak dari kiri */
+        }
+
+        /* Gaya untuk daftar tentang HTML */
+        .html-list {
+            color: green;
+            font-style: italic;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.1em;
+            padding-left: 40px; /* Memberi sedikit jarak dari kiri */
+        }
+        
+        /* Gaya untuk gambar agar responsif */
+        .content-image {
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 class="main-title">Praktikum Pemrograman WEB</h1>
+
+        <h2 class="sub-title">1. Pengenalan Internet</h2>
+        <ul class="internet-list">
+            <li>Sejarah Internet</li>
+            <li>Pengertian Internet</li>
+            <li>Karakteristik Internet</li>
+        </ul>
+
+        <h2 class="sub-title">2. Pengenalan Client Server</h2>
+
+        <h2 class="sub-title html-title">3. Pengenalan HTML</h2>
+        <ol class="html-list">
+            <li>Dasar-dasar HTML</li>
+            <li>Aturan HTML</li>
+            <li>Pengertian HTML</li>
+        </ol>
+
+        <img src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Matahari terbenam di atas air" class="content-image">
+
+    </div>
+
+</body>
+</html>
